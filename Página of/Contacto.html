@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contacto - Ferretería El Tornillo Feliz</title>
+</head>
+<body>
+
+<header>
+    <img src="imgicono.png" alt="Logo de la ferretería">
+    <div>
+        <h1>Ferretería El Tornillo Feliz</h1>
+        <p>Todo lo que necesitas para tus proyectos</p>
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="Tutoriales.html">Tutoriales</a>
+    <a href="Seguridad.html">Seguridad</a>
+</nav>
+
+<div class="container">
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Para consultas, dudas o más información, por favor completa el formulario a continuación y nos pondremos en contacto contigo a la brevedad.</p>
+        
+        <form class="contact-form" action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="surname">Apellido:</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Número telefónico:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="country">País:</label>
+                <select id="country" name="country" required>
+                    <option value="">Selecciona tu país</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Perú">Perú</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="details">
+        <h2>Otros Medios de Contacto</h2>
+        <p>Si prefieres, puedes comunicarte con nosotros a través de los siguientes medios:</p>
+        <ul>
+            <li>Teléfono: +56 2 1234 5678</li>
+            <li>Correo electrónico: contacto@eltornillofeliz.com</li>
+            <li>Dirección: Av. Antonio Varas 666, Santiago, Chile</li>
+        </ul>
+    </section>
+
+    <section id="hours">
+        <h2>Horarios de Atención</h2>
+        <ul>
+            <li>Lunes a Viernes: 9:00 AM - 6:00 PM</li>
+            <li>Sábado: 10:00 AM - 2:00 PM</li>
+            <li>Domingo: Cerrado</li>
+        </ul>
+    </section>
+
+    <section id="social-media">
+        <h2>Síguenos en Redes Sociales</h2>
+        <ul>
+            <li><a href="https://www.facebook.com/eltornillofeliz" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/eltornillofeliz" target="_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com/eltornillofeliz" target="_blank">Twitter</a></li>
+        </ul>
+    </section>
+
+    <section id="newsletter">
+        <h2>Suscríbete a Nuestro Boletín</h2>
+        <form class="newsletter-form" action="subscribe_newsletter.php" method="post">
+            <div class="form-group">
+                <label for="newsletter-email">Correo Electrónico:</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" required>
+            </div>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </section>
+
+    <section id="map">
+        <h2>Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.6257051198245!2d-70.61747932346212!3d-33.
+        43300139662035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7b8af466fd%3A0xc8fd2d768e783103!2sDuoc%20U
+        C%3A%20Antonio%20Varas!5e0!3m2!1ses-419!2scl!4v1716139511287!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Ferretería El Tornillo Feliz. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

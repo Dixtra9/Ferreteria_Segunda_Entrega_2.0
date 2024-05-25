@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesProductos.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.7.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="imgicono.png" alt="Logo de la ferretería">
+    <div>
+        <title>Productos - Ferretería El Tornillo Feliz</title>
+        <h1>Productos - Ferretería El Tornillo Feliz</h1>
+        <p>Explora nuestra amplia variedad de productos</p>
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="Tutoriales.html">Tutorial</a>
+    <a href="Seguridad.html">Seguridad</a>
+</nav>
+
+<div class="container">
+    <section id="products">
+        <h2>Productos</h2>
+        <button id="toggleView" class="btn">Cambiar Vista</button>
+        <div class="product-list">
+
+            <div class="product">
+                <img src="https://source.unsplash.com/CuDoRFyTkAQ" alt="Taladro Eléctrico">
+                <div class="product-details">
+                    <h3>Taladro Eléctrico</h3>
+                    <p>Descripción: Taladro eléctrico de alta potencia, ideal para trabajos pesados.</p>
+                    <p>Precio: $59.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/ARaYGFeuwpU" alt="Martillo">
+                <div class="product-details">
+                    <h3>Martillo</h3>
+                    <p>Descripción: Martillo resistente con mango de fibra de vidrio.</p>
+                    <p>Precio: $7.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/yCLKVuFmzqE" alt="Destornillador">
+                <div class="product-details">
+                    <h3>Destornillador</h3>
+                    <p>Descripción: Destornillador multipropósito con puntas intercambiables.</p>
+                    <p>Precio: $4.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/60krlMMeWxU" alt="Llaves">
+                <div class="product-details">
+                    <h3>Llaves</h3>
+                    <p>Descripción: Conjunto variado de llaves para todas las necesidades domésticas.</p>
+                    <p>Precio: $15.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/3HkdGPOjbKA" alt="Cintas">
+                <div class="product-details">
+                    <h3>Cintas</h3>
+                    <p>Descripción: Versátil cinta aisladora para múltiples reparaciones y proyectos.</p>
+                    <p>Precio: $3.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/Z3vFp7szCAY" alt="Clavos">
+                <div class="product-details">
+                    <h3>Clavos</h3>
+                    <p>Descripción: Clavos resistentes para fijación segura en cualquier superficie.</p>
+                    <p>Precio: $6.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/eIOUKABNjDA" alt="Maderas">
+                <div class="product-details">
+                    <h3>Maderas</h3>
+                    <p>Descripción: Maderas de calidad para construcciones sólidas y duraderas.</p>
+                    <p>Precio: $15.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/d0yNnTEjEWY" alt="Sierras">
+                <div class="product-details">
+                    <h3>Sierras</h3>
+                    <p>Descripción: Potente sierra eléctrica para cortes precisos en diversos materiales.</p>
+                    <p>Precio: $39.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://source.unsplash.com/QvTJYfO93-c" alt="Cerámicas">
+                <div class="product-details">
+                    <h3>Cerámicas</h3>
+                    <p>Descripción: Cerámicas elegantes para dar vida a tus espacios favoritos.</p>
+                    <p>Precio: $49.990</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <!-- Añadir más productos según sea necesario -->
+        </div>
+    </section>
+</div>
+
+<script>
+    document.getElementById('toggleView').addEventListener('click', function() {
+        document.querySelector('.product-list').classList.toggle('list-view');
+    });
+</script>
+
+<footer>
+    <p>&copy; 2024 Ferretería El Tornillo Feliz. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
